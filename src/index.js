@@ -118,6 +118,7 @@ function App() {
         <FeedList url="https://www.mrmoneymustache.com/feed/" />
         <FeedList url="https://www.gocurrycracker.com/feed/" />
         <FeedList url="https://frugalwoods.com/feed" />
+        <FeedList url="https://choosefi.com/feed" />
         <FeedList url="https://www.reddit.com/r/financialindependence/.rss" />
         <FeedList url="https://jlcollinsnh.com/feed/" />
       </div>
