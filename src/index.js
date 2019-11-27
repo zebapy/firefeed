@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import Parser from 'rss-parser/dist/rss-parser.min';
 import dayjs from 'dayjs';
 
+import './styles.css';
+
 let parser = new Parser();
 
 const useFeed = url => {
