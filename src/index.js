@@ -36,7 +36,7 @@ const useFeed = url => {
 };
 
 const Article = ({ pubDate, title, link, contentSnippet }) => (
-  <article className="">
+  <article className="rounded box-shadow bg-white p-6">
     <time dateTime={pubDate} className="text-sm mb-2 uppercase tracking-wide">
       {dayjs(pubDate).format('MMM D, YYYY')}
     </time>
@@ -99,7 +99,7 @@ const FeedList = ({ url }) => {
 
 function App() {
   return (
-    <div className="font-sans text-lg">
+    <div className="font-sans text-lg bg-gray-200">
       <header className="text-center py-8 mb-8">
         <h1 className="text-2xl">
           <span role="img" aria-label="Fire icon">
